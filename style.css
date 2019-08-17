@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+}
+
+.container {
+  height: 100%;
+  box-shadow: inset 0 0 0px red;
+  animation-name: redalert;
+  animation-iteration-count: infinite;
+  animation-duration: 0.4s;
+  animation-direction: alternate;
+}
+
+@keyframes redalert {
+  from {
+    box-shadow: inset 0 0 0px red;
+  }
+  to {
+    box-shadow: inset 0 0 50px red;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
